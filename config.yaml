@@ -414,9 +414,9 @@ rule-anchor:
 # 部分规则上游为https://github.com/blackmatrix7/ios_rule_script
 # Github Actions 每日自动同步跟随更新
 rule-providers:
-  自定义出站: # 主要用于广告误杀自定义放行
-    <<: *Local
-    path: ./etc/自定义规则.list # 请按路径新建文件及建立你需要的规则
+#  自定义出站: # 主要用于广告误杀自定义放行
+#    <<: *Local
+#    path: ./etc/自定义规则.list # 请按路径新建文件及建立你需要的规则
 
   WebRTC_端/域:
     <<: *Classical
@@ -585,7 +585,7 @@ rules:
   - DST-PORT,53,🌐 DNS_Hijack
   - DST-PORT,853,DNS连接
 
-  - RULE-SET,自定义出站,白名单出站
+#  - RULE-SET,自定义出站,白名单出站
 
   - RULE-SET,WebRTC_端/域,WebRTC
   - RULE-SET,No-ads-all_域,广告拦截
@@ -593,6 +593,7 @@ rules:
   - DOMAIN-SUFFIX,jp,日本节点
   - DOMAIN-KEYWORD,exhentai,美国节点
   - DOMAIN-SUFFIX,zaimanhua.com,DIRECT
+  - DOMAIN-KEYWORD,skybook,DIRECT
 
   - PROCESS-PATH,com.ss.android.ugc.aweme,抖音
   - RULE-SET,DouYin_域,抖音
