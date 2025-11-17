@@ -1,8 +1,8 @@
 # —————————
 # 基础设置
 mixed-port: 7890
-redir-port: 7891
-tproxy-port: 1536
+#redir-port: 7891
+#tproxy-port: 1536
 ipv6: true
 mode: Rule
 allow-lan: false
@@ -119,7 +119,7 @@ sniffer:
 
 # 网卡模块
 tun:
-  enable: true  # true 开 # false 默认关
+  enable: false  # true 开 # false 默认关
   device: Meta
   stack: gvisor
   dns-hijack:
