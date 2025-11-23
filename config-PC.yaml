@@ -314,10 +314,6 @@ proxy-groups:
       - REJECT-DROP
       - PASS
 
-  - name: 白名单出站
-    icon: "https://cdn.jsdelivr.net/gh/GitMetaio/Surfing@rm/Home/icon/User.svg"
-    <<: *CNproxy_groups
-
   - name: 延迟最低
     icon: "https://cdn.jsdelivr.net/gh/GitMetaio/Surfing@rm/Home/icon/Return.svg"
     type: url-test
