@@ -1,8 +1,8 @@
 # —————————
 # 基础设置
 mixed-port: 7890
-#redir-port: 7891
-#tproxy-port: 1536
+redir-port: 7891
+tproxy-port: 1536
 ipv6: true
 mode: Rule
 allow-lan: false
@@ -25,8 +25,8 @@ log-level: info
 find-process-mode: always
 global-client-fingerprint: chrome
 external-controller: 0.0.0.0:9090 # 切勿修改端口会影响状态栏磁贴
-external-ui-url: "https://github.com/Zephyruso/zashboard/releases/latest/download/dist.zip"
-external-ui: "./Web/Zash/"
+#external-ui-url: "https://github.com/Zephyruso/zashboard/releases/latest/download/dist.zip"
+#external-ui: "./Web/Zash/"
 secret: "" # 面板访问密码，如在公网访问建议设置
 # —————————
 # ==== Tips
@@ -594,6 +594,7 @@ rules:
   - DOMAIN-KEYWORD,exhentai,美国节点
   - DOMAIN-SUFFIX,zaimanhua.com,DIRECT
   - DOMAIN-KEYWORD,skybook,DIRECT
+  - DOMAIN-SUFFIX,qingread.icu,DIRECT
 
   - PROCESS-PATH,com.ss.android.ugc.aweme,抖音
   - RULE-SET,DouYin_域,抖音
