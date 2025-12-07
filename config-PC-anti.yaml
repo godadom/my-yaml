@@ -391,7 +391,7 @@ listeners:
   - name: browser-uk
     type: socks
     port: 46004
-    proxy: "1.0x 🇬🇧 英国 UK - 3"
+    proxy: '1.0x 🇬🇧 英国 UK - 3'
 
   - name: browser-jp
     type: socks
@@ -401,7 +401,7 @@ listeners:
   - name: browser-sg
     type: socks
     port: 46006
-    proxy: "🎞️ 1.0x 🇸🇬 新加坡 SG - 3"
+    proxy: 狮城节点
 # ——————————
     
 rule-anchor:
@@ -586,6 +586,7 @@ rules:
   - DOMAIN-KEYWORD,exhentai,美国节点
   - DOMAIN-SUFFIX,zaimanhua.com,DIRECT
   - PROCESS-NAME,tailscaled.exe,DIRECT
+  - DOMAIN-KEYWORD,bybit,台湾节点
 
   - RULE-SET,DouYin_域,抖音
 
