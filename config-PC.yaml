@@ -371,12 +371,6 @@ proxy-groups:
       - 🇨🇳 瓦洛兰大陆
 # —————————
 
-listeners:
-    - {name: '香港节点监听', type: mixed, port: 46001, proxy-group: '香港节点'}
-    - {name: '台湾节点监听', type: mixed, port: 46002, proxy-group: '台湾节点'}
-    - {name: '新加坡节点监听', type: mixed, port: 46003, proxy-group: '狮城节点'}
-    - {name: '日本节点监听', type: mixed, port: 46004, proxy-group: '日本节点'}
-
     
 rule-anchor:
   Local: &Local
