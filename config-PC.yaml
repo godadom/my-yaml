@@ -212,6 +212,7 @@ proxy-groups:
       - 美国节点
       - 其它地区
       - 🇨🇳 瓦洛兰大陆
+    <<: *All
 
   - name: 订阅更新
     icon: "https://cdn.jsdelivr.net/gh/GitMetaio/Surfing@rm/Home/icon/Update.svg"
