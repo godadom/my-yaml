@@ -370,6 +370,24 @@ proxy-groups:
     proxies:
       - 🇨🇳 瓦洛兰大陆
 # —————————
+
+
+listeners:
+  - name: browser-hk
+    type: socks5
+    port: 46001
+    proxy: 香港节点
+    
+  - name: browser-us
+    type: socks5
+    port: 46002
+    proxy: 美国节点
+
+  - name: browser-tw
+    type: socks5
+    port: 46003
+    proxy: 台湾节点
+# ——————————
     
 rule-anchor:
   Local: &Local
