@@ -598,8 +598,8 @@ rules:
   - DOMAIN-KEYWORD,skybook,DIRECT
   - DOMAIN-SUFFIX,qingread.icu,DIRECT
 
-  - DOMAIN-SUFFIX,bybit.com,台湾节点
-  - DOMAIN-SUFFIX,wise.com,DIRECT
+  - PROCESS-NAME,com.bybit.app,台湾节点
+  - PROCESS-NAME,com.transferwise.android,DIRECT
 
   - PROCESS-NAME,com.ss.android.ugc.aweme,抖音
   - RULE-SET,DouYin_域,抖音
