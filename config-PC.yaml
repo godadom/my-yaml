@@ -553,6 +553,7 @@ rules:
   - DOMAIN-KEYWORD,exhentai,美国节点
   - DOMAIN-SUFFIX,zaimanhua.com,DIRECT
   - PROCESS-NAME,tailscaled.exe,DIRECT
+  - DOMAIN-KEYWORD,bybit,台湾节点
 
   - RULE-SET,DouYin_域,抖音
 
